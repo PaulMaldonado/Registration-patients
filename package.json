@@ -1,0 +1,16 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Aplicación para registrar pacientes con Electron.js",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "nodemon --watch * --exec electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.5",
+    "nodemon": "^2.0.3"
+  }
+}
